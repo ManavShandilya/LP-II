@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: rgb(214, 212, 212);
+    border-bottom: 1px slategrey solid;
+    height: 50px;
+    text-decoration: none;
+}
+
+nav h2 {
+    color: rgb(61, 61, 61);
+}
+
+nav button {
+    padding: 10px 15px;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    padding: 270px 350px;
+}
+
+.outer-container {
+   background-color: rgb(238, 238, 238);
+   height: 100%;
+   margin-top: 100px;
+   margin-left: 420px;
+   width: 40%;
+   padding-bottom: 50px;
+}
+
+.inner-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inner-container h1 {
+    margin-top: 50px;
+}
+
+.inner-container form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inner-container form div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inner-container form div label {
+    font-weight: 700;
+}
+
+.inner-container form div input {
+    padding: 6px 15px;
+}
+
+.inner-container form button {
+    padding: 5px 10px;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.inner-container form p {
+    text-align: center;
+}
+
